@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex</title>
+    <style type="text/css">
+        .boxcontainer {
+            width: 100%;
+            display: -webkit-flex; /* Safari */
+            display: flex;
+        }
+
+        .item1,.item2,.item3,.item4 {
+            background: #357c96;
+            font-weight: bold;
+            margin: 2px;
+            padding: 20px;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+        .item1 {
+            flex:2
+        }
+        .item2{
+            flex:3
+        }
+    </style>
+</head>
+<body>
+<div class="boxcontainer">
+    <div class="item1">
+        1
+    </div>
+    <div class="item2">
+        2
+    </div>
+    <div class="item3">
+        3
+    </div>
+    <div class="item4">
+        4
+    </div>
+</div>
+</body>
+</html>
